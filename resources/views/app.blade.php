@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ request()->session()->token() }}">
 
-    <title>@yield('title') | {{ config('app.name') }}</title>
+    <title>{{ config('app.name') }}</title>
 
     <!-- Fonts -->
     <link href="{{ $manifestFile->{'/css/app.css'} }}" rel="stylesheet">

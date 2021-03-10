@@ -1,6 +1,9 @@
 /vendor
 /.idea
 /node_modules
+/public/js
+/public/css
+/public/mix-manifest.json
 Homestead.json
 Homestead.yaml
 .env
